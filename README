@@ -1,0 +1,44 @@
+Aranea - Fast dns spoofing tool
+(c) 2011 Emanuele Acri <crossbower@gmail.com>
+
+Compile:
+--------
+
+To compile the tool you need only libpcap-dev.
+On debian you can install the package with:
+
+# apt-get install libpcap-dev
+
+Using only libpcap to inject packets, the tool can be easily compiled
+on platform on every platform supported by the library.
+
+Usage:
+------
+
+Aranea is very simple to use.
+It must be run as root, specifying at least the option '-f':
+
+# aranea -f hosts.txt
+
+where 'hosts.txt' is a correctly formatted hosts-file.
+
+The hosts-file format used by aranea is very similar to /etc/hosts,
+the major difference is that domain names are regular expressions and not
+play strings.
+
+For example, if you want to redirect the host google.com and its subdomains
+to kittenwar.com (may the cutest kitten win!) you must add to the hosts-file
+a line similar to this one:
+
+205.196.209.62 google\.com
+
+Instead of the wildcards you can use '.+', to match a generic sequence
+of characters.
+
+For example, a global redirection to kittenwar.com (unhealthy idea...)
+looks like this:
+
+205.196.209.62 .
+
+If you need more informations about regular expressions, an excellent reference is http://www.regular-expressions.info/ 
+
