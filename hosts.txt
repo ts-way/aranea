@@ -1,0 +1,18 @@
+#
+# Sample hosts file
+#
+# The name field is a standard extended regular expression
+# (remember that!)
+#
+
+127.0.0.1	ad\.
+127.0.0.1	ads\.
+127.0.0.1	adbot\.
+127.0.0.1	\.valueclick\.com
+127.0.0.1	\.wisewire\.com
+
+#
+# Everything --> Kittenwar! Cute!!! :D
+#
+
+205.196.209.62 .
