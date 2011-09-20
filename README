@@ -39,7 +39,7 @@ a line similar to this one:
 
 205.196.209.62 google\.com
 
-Instead of the wildcards you can use '.+', to match a generic sequence
+Instead of the wildcards you can use '.+' to match a generic sequence
 of characters.
 
 For example, a global redirection to kittenwar.com (unhealthy idea...)
