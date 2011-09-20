@@ -1,10 +1,12 @@
 Aranea - Fast dns spoofing tool
 (c) 2011 Emanuele Acri <crossbower@gmail.com>
 
+Project site: https://github.com/TigerSecurity/aranea
+
 General description:
 --------------------
 
-Aranea is a fost DNS Spoofing tool, based on libpcap.
+Aranea is a fast DNS Spoofing tool, based on libpcap.
 It's multithread, clean, and very flexible.
 It uses regular expressions to specify hostnames.
 
