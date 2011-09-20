@@ -14,7 +14,7 @@ Compile:
 --------
 
 To compile the tool you need only libpcap-dev.
-On debian you can install the package with:
+On debian you can install the dependencies with:
 
 # apt-get install libpcap-dev
 
